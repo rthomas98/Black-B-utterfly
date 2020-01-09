@@ -63,6 +63,28 @@
 		"oAP": "/header.php",
 		"oF": 0
 		},
+	"/img/Bb-icon.png": {
+		"ft": 32768,
+		"iS": 26545,
+		"oA": 0,
+		"oAP": "/img/Bb-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/butterfly-group.png": {
+		"ft": 32768,
+		"iS": 13268,
+		"oA": 0,
+		"oAP": "/img/butterfly-group.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/inc/custom-header.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -101,6 +123,54 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/inc/template-tags.php",
+		"oF": 0
+		},
+	"/includes/about.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/includes/about.php",
+		"oF": 0
+		},
+	"/includes/footer.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/includes/footer.php",
+		"oF": 0
+		},
+	"/includes/nav.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/includes/nav.php",
+		"oF": 0
+		},
+	"/includes/newsletter.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/includes/newsletter.php",
+		"oF": 0
+		},
+	"/includes/recent-poem.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/includes/recent-poem.php",
+		"oF": 0
+		},
+	"/includes/recent-post.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/includes/recent-post.php",
 		"oF": 0
 		},
 	"/index.php": {
@@ -483,6 +553,16 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/scss/style-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/scss/style-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/scss/style.css": {
 		"aP": 1,
 		"bl": 0,
@@ -653,7 +733,7 @@
 	"creationDate": 597007310.66735899,
 	"displayValue": "blackbutterfly",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "logo-wordpress",
+	"iconImageName": "meme-maroney",
 	"iconImageWasSetByUser": 1
 	},
 "projectSettings": {

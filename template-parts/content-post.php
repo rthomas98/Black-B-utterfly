@@ -1,3 +1,23 @@
+
+<div class=" birds-bg h-50 banner">
+    <div class="container h-100">
+        <div class="row h-100">
+            <div class="col d-flex justify-content-center">
+                <div class="my-auto text-center">
+                    <h1>
+                        Blog
+                    </h1>
+                    <p class="lead">
+                        Anything is possible said the butterfly
+                        As she wrapped her self up in the chrysalis
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 <?php
 if ( get_query_var('paged') ) {
     $paged = get_query_var('paged');
@@ -22,36 +42,38 @@ $custom_query = new WP_Query( $custom_query_args );
 if ( $custom_query->have_posts() ) :
     while( $custom_query->have_posts() ) : $custom_query->the_post(); ?>
 
-        <div class="col-sm-12 col-md-12 col-lg-6 mb-4">
-            <article class="" <?php post_class(); ?>>
+        <div class="container">
+            <div class="col-sm-12 col-md-12 col-lg-6 mb-4">
+                <article class="" <?php post_class(); ?>>
 
 
 
-                <?php
-                if ( has_post_thumbnail() ) {
-                    the_post_thumbnail( 'post', array( 'class'  => 'img-fluid mb-3 mt-3' ) );
-                }
-                ?>
+                    <?php
+                    if ( has_post_thumbnail() ) {
+                        the_post_thumbnail( 'post', array( 'class'  => 'img-fluid mb-3 mt-3' ) );
+                    }
+                    ?>
 
 
-                <h5 class="m-0">
-                    <a href="<?php the_permalink(); ?>">
-                        <?php the_title(); ?>
-                    </a></h5>
+                    <h5 class="m-0">
+                        <a href="<?php the_permalink(); ?>">
+                            <?php the_title(); ?>
+                        </a></h5>
 
 
-                <p class="m-0">
-                    <?php the_time('F jS, Y') ?>
-                </p>
+                    <p class="m-0">
+                        <?php the_time('F jS, Y') ?>
+                    </p>
 
 
-                <p><?php the_excerpt(); ?></p>
+                    <p><?php the_excerpt(); ?></p>
 
-                <p class="text-center"><a href="<?php the_permalink() ?>" class="btn btn-dark">Read More</a></p>
+                    <p class="text-center"><a href="<?php the_permalink() ?>" class="btn btn-dark">Read More</a></p>
 
-            </article>
+                </article>
 
 
+            </div>
         </div>
 
     <?php
@@ -82,3 +104,11 @@ else:
     echo '<p>'.__('Sorry, no posts matched your criteria.').'</p>';
 endif;
 ?>
+
+
+<?php get_template_part('includes/recent-post'); ?>
+
+<?php get_template_part('includes/newsletter'); ?>
+
+<?php get_template_part('includes/recent-poem'); ?>
+

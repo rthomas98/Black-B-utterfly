@@ -41,6 +41,7 @@ if ( ! function_exists( 'blackbutterfly_setup' ) ) :
 		 * @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
 		 */
 		add_theme_support( 'post-thumbnails' );
+        add_image_size('post', 540, 360, true);
 
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
@@ -163,8 +164,32 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 }
 
 
-if( function_exists('acf_add_options_page') ) {
+add_action('acf/init', 'my_acf_op_init');
 
-    acf_add_options_page('CTA Settings');
+function my_acf_op_init() {
 
+    // Check function exists.
+    if( function_exists('acf_add_options_sub_page') ) {
+
+        // Add parent.
+        $parent = acf_add_options_page(array(
+            'page_title'  => __('Author General Settings'),
+            'menu_title'  => __('Author Settings'),
+            'redirect'    => false,
+        ));
+
+        // Add sub page.
+        $child = acf_add_options_sub_page(array(
+            'page_title'  => __('Newsletter Settings'),
+            'menu_title'  => __('Newsletter'),
+            'parent_slug' => $parent['menu_slug'],
+        ));
+
+        // Add sub page.
+        $child = acf_add_options_sub_page(array(
+            'page_title'  => __('Poem Settings'),
+            'menu_title'  => __('Poem'),
+            'parent_slug' => $parent['menu_slug'],
+        ));
+    }
 }
