@@ -42,7 +42,7 @@
     <div class="row">
         <div class="col text-center">
             <p>
-                <a class="btn btn-red">
+                <a href="<?php echo site_url('/blog'); ?>" class="btn btn-red">
                     view more posts
                 </a>
             </p>

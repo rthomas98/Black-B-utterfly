@@ -23,6 +23,22 @@
 		"oAP": "/404.php",
 		"oF": 0
 		},
+	"/archive-poems.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/archive-poems.php",
+		"oF": 0
+		},
+	"/archive-posts.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/archive-posts.php",
+		"oF": 0
+		},
 	"/archive.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -610,14 +626,6 @@
 		"oAP": "/sidebar.php",
 		"oF": 0
 		},
-	"/single-book.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/single-book.php",
-		"oF": 0
-		},
 	"/single-poem.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -626,12 +634,12 @@
 		"oAP": "/single-poem.php",
 		"oF": 0
 		},
-	"/single.php": {
+	"/single-post.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/single.php",
+		"oAP": "/single-post.php",
 		"oF": 0
 		},
 	"/style.css": {
@@ -652,12 +660,12 @@
 		"oAP": "/template-parts/content-about.php",
 		"oF": 0
 		},
-	"/template-parts/content-books.php": {
+	"/template-parts/content-books-page.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/template-parts/content-books.php",
+		"oAP": "/template-parts/content-books-page.php",
 		"oF": 0
 		},
 	"/template-parts/content-contact.php": {
@@ -692,6 +700,14 @@
 		"oAP": "/template-parts/content-page.php",
 		"oF": 0
 		},
+	"/template-parts/content-poem.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/template-parts/content-poem.php",
+		"oF": 0
+		},
 	"/template-parts/content-poems.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -706,6 +722,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/template-parts/content-post.php",
+		"oF": 0
+		},
+	"/template-parts/content-posts.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/template-parts/content-posts.php",
 		"oF": 0
 		},
 	"/template-parts/content-search.php": {

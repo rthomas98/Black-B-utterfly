@@ -2,34 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7cb6e29-fd9b-4e92-9158-2e875b5b462b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/about.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/nav.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/newsletter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/recent-poem.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/recent-post.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive-poems.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive-posts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/single-post.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template-parts/content-poem.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template-parts/content-posts.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.codekit3" beforeDir="false" afterPath="$PROJECT_DIR$/config.codekit3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/recent-post.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/recent-post.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page.php" beforeDir="false" afterPath="$PROJECT_DIR$/page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/page-about.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/page-about.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/page-books.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/page-books.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/page-contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/page-contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/page-home.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/page-home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/page-poems.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/page-poems.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/1f30d14865f1b9be18996e227e04044a3a683d08/main.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/scss/.sass-cache/1f30d14865f1b9be18996e227e04044a3a683d08/main.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/content-about.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/content-about.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/content-books.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/content-books.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/content-contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/content-contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/content-home.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/content-home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/single-book.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/single-poem.php" beforeDir="false" afterPath="$PROJECT_DIR$/single-poem.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/single.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/content-books.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/content-books-page.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/template-parts/content-poems.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/content-poems.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/template-parts/content-post.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/content-post.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/template-parts/content.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/content.php" afterDir="false" />
@@ -90,7 +77,9 @@
       <workItem from="1575304078015" duration="6946000" />
       <workItem from="1575384336491" duration="1248000" />
       <workItem from="1578505189294" duration="7057000" />
-      <workItem from="1578578554465" duration="12884000" />
+      <workItem from="1578578554465" duration="13079000" />
+      <workItem from="1579532719083" duration="7215000" />
+      <workItem from="1579562287492" duration="731000" />
     </task>
     <servers />
   </component>
@@ -106,9 +95,9 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="413" y="322" key="EditFileWatcherDialog/1680.23.1680.1027/0.23.1680.1027@0.23.1680.1027" timestamp="1575304262146" />
-    <state x="592" y="-822" width="670" height="676" key="search.everywhere.popup" timestamp="1578509672735">
+    <state x="592" y="-822" width="670" height="676" key="search.everywhere.popup" timestamp="1579563145397">
       <screen x="-33" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="592" y="-822" width="670" height="676" key="search.everywhere.popup/-33.-1057.1920.1057/0.23.1680.1027/1887.-1057.1920.1057@-33.-1057.1920.1057" timestamp="1578509672735" />
+    <state x="592" y="-822" width="670" height="676" key="search.everywhere.popup/-33.-1057.1920.1057/0.23.1680.1027/1887.-1057.1920.1057@-33.-1057.1920.1057" timestamp="1579563145397" />
   </component>
 </project>

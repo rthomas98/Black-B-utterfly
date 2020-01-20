@@ -1,4 +1,16 @@
+<?php
+/**
+ * Template part for displaying posts
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ *
+ * @package Black_Butterfly
+ */
+
+?>
+
 <?php get_template_part('includes/nav'); ?>
+
 
 <div class=" birds-bg h-50 banner">
     <div class="container h-100">
@@ -6,7 +18,7 @@
             <div class="col d-flex justify-content-center">
                 <div class="my-auto text-center">
                     <h1>
-                        Blog
+                        Poems
                     </h1>
                     <p class="lead">
                         Anything is possible said the butterfly
@@ -18,8 +30,9 @@
     </div>
 </div>
 
+
 <div class="container mb-5">
-    <div class="row">
+    <div class="row mb-5">
         <div class="col">
             <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
@@ -42,12 +55,12 @@
     </div>
 </div>
 
-<?php get_template_part('includes/recent-post'); ?>
-
 
 <?php get_template_part('includes/newsletter'); ?>
 
-<?php get_template_part('includes/recent-poem'); ?>
+<?php get_template_part('includes/about'); ?>
+
 
 <?php get_template_part('includes/footer'); ?>
+
 

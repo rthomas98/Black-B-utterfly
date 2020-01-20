@@ -45,7 +45,7 @@
     if ( $custom_query->have_posts() ) :
         while( $custom_query->have_posts() ) : $custom_query->the_post(); ?>
 
-            <div class="col-sm-12 col-md-12 col-lg-4 mb-4">
+            <div class="col-sm-12 col-md-12 col-lg-4 mb-4 text-center">
                 <article class="" <?php post_class(); ?>>
 
 
@@ -106,7 +106,5 @@
 </div>
 
 <?php get_template_part('includes/newsletter'); ?>
-
-<?php get_template_part('includes/recent-post'); ?>
 
 <?php get_template_part('includes/about'); ?>

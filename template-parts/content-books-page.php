@@ -61,9 +61,7 @@
                     <div class="col-sm-12 col-md-12 col-lg-6 d-flex justify-content-center">
                         <div class="my-auto col">
                             <h5 class="m-0">
-                                <a href="<?php the_permalink(); ?>">
                                     <?php the_title(); ?>
-                                </a>
                             </h5>
 
                             <p class="m-0">
@@ -73,7 +71,7 @@
 
                             <p><?php the_excerpt(); ?></p>
 
-                            <p><a href="<?php the_permalink() ?>" class="btn btn-dark">Read More</a> <a class="btn btn-red" href="<?php the_field('buy_link'); ?>" target="_blank">buy the book</a></p>
+                            <p><a class="btn btn-red" href="<?php the_field('buy_link'); ?>" target="_blank">buy the book</a></p>
                         </div>
                     </div>
 
